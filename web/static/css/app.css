@@ -1,1 +1,78 @@
 /* This file is for your main application css. */
+
+body {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column nowrap;
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
+hr {
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+footer {
+  margin: 0 0 20px 20px;
+}
+footer a {
+  color: #f84342;
+}
+footer a:hover {
+  color: black;
+}
+
+footer img {
+  height: 30px;
+}
+
+.circle {
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  border-radius: 100%;
+  background: #f84342;
+  border: 1px solid #F7F7F7;
+  width: 80px;
+  height: 80px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 16px;
+  cursor: pointer;
+  transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -webkit-transform: rotate(11deg);
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+#header-links {
+  margin: 20px 20px 0 0;
+}
+
+#header-links a {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#header-links a:hover {
+  color: #f84342;
+}
+
+td.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+td.actions a {
+  margin-left: 5px;
+}

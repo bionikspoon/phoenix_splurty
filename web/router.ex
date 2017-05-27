@@ -16,7 +16,7 @@ defmodule Splurty.Router do
   scope "/", Splurty do
     pipe_through :browser # Use the default browser stack
 
-    get "/", QuoteController, :index
+    get "/", PageController, :index
 
     resources "/quotes", QuoteController
   end

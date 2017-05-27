@@ -1,4 +1,4 @@
-<h2>Listing quotes</h2>
+<h2>Quotes</h2>
 
 <table class="table">
   <thead>
@@ -15,7 +15,7 @@
       <td><%= quote.saying %></td>
       <td><%= quote.author %></td>
 
-      <td class="text-right">
+      <td class="actions">
         <%= link "Show", to: quote_path(@conn, :show, quote), class: "btn btn-default btn-xs" %>
         <%= link "Edit", to: quote_path(@conn, :edit, quote), class: "btn btn-default btn-xs" %>
         <%= link "Delete", to: quote_path(@conn, :delete, quote), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
